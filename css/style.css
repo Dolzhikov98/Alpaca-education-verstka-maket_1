@@ -1,0 +1,86 @@
+body {
+  overflow-x: hidden;
+}
+
+.container {
+  background-color: #f0eded;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  width: 1300px;
+  margin: auto;
+}
+.container .container_title_subtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container .container_title_subtitle h1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: #333;
+  margin-top: 20px;
+}
+.container .container_title_subtitle p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1 rem;
+  line-height: 1.5;
+  color: #333;
+  margin-top: -10px;
+}
+.container .container_for_picture {
+  background-color: #fff;
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 5px;
+}
+.container .container_for_dates {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 650px;
+  margin-top: 30px;
+}
+.container .container_for_dates h1 {
+  font-size: 22px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  line-height: 0.6;
+  color: #333;
+}
+.container .container_for_dates li {
+  margin: 16px 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  color: #333;
+}
+.container .container_for_dated_footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 600px;
+  margin-top: 10px;
+}
+.container .container_for_dated_footer li {
+  margin: 16px 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  color: #333;
+  list-style: none;
+  font-style: italic;
+}
+.container .footer {
+  margin-top: 25px;
+}
+.container .footer h3 {
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  line-height: 0.6;
+  color: #333;
+}
